@@ -1,66 +1,145 @@
 <!doctype html>
 <html>
-  
   <head>
+    <!-- Nonvisible -->
+    <!--CSS Goes here -->
     <style>
-      
-      Body {
-        background: #353f52;
-        color: #f5efb5;
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        text-align:center;
       }
-      h1 {
-        font-size: 48px;
-        text-align: center;
+      header {
+        color:black;
+        background:white;
+        padding: 1rem;
       }
-      p {
-        font-size: 1.25rem;
-        line-height: 2rem;
+      nav {
+        color:white;
+        background:black;
+        padding: 1rem;
       }
-      li {
-        font-size: 1.2rem;
-        line-height: 2rem;
-        margin: .5rem;
-        padding:0.25rem;
+      footer{
+        color:white;
+        background:black;
+        padding:1rem;
+        min-height: 15vh;
       }
-      a:link {
-        color:tan;
-        background-color:darkblue;
+      .container {
+        color:black;
+        background: beige;
+        padding: 2rem;
+        width:80%;
+        margin:auto;
       }
-      a:hover {
-        color:red;
+      img {
+        display:block;
+        width:100%;
       }
-      a:active {
-        color:yellow;
+      .box h3 {
+        background: maroon;
+        color:white;
+        padding: 1rem;
+      }
+      .box p {
+        padding:1rem;
+        font-size:1.5rem;
+      }
+      .box {
+        width: 30%;
+        margin: 1rem;
+        border:1px black solid;
       }
       
     </style>
-    
-    <title>Web 1 Homepage</title>
-    
+    <!--Title tag for browser tab-->
+    <title>Web 1 Index</title>
   </head>
-    
-    
-    <!-- Body section is visible stuff -->
-    <body>
-    
-      <h1>My Homepage</h1>
-      <p>
-          Matthew Claybaugh<br>
-          Web 1, 4th Hour<br>
-          10/25/21
-      </p>
+  <body>
+   <header>
+     <h1>Web Design 1 Homepage</h1>
+     <p>
+       Matthew Claybaugh
+       11/02/2021<br>
+       Web 1, 4th Hour
+       
+     </p>
+     
+   </header>
+   <nav>
+     nav section
+     
+   </nav>
+    <div class="container">
+      <!--Main page content here-->
       
-    <hr>
-    <h3>Basic HTML Assignments</h3>
-    
-    <ul>
-      <li><a href="skeleton.html" target="_blank">Skeleton</a></li>
       
-      <li><a href="favoriteMovie.html" target="_blank">Favorite Movie</a></li>
+      <!--start of an assignment-->
+      <div class="box">
+        <img src="https://www.popsci.com/app/uploads/2020/02/04/GLWVYIVH7FBVBPKNLWVMOMPHEU.jpg" alt="#">
+        <h3>HTML Skeleton 1</h3>
+        
+        <p>
+          Basic tags needed for an HTML page.
+          <br>
+          <a href="newskeleton.html" target="_blank">Skeleton 2</a>
+        </p>
       
-      <li><a href="HTMLFavoriteFood.html" target="_blank">Favorite Food</a></li>
-    </ul>
-    
-    </body>
-  
+      </div>
+      
+      <!-- End of an assignment-->
+      
+      
+      <!--start of an assignment-->
+      <div class="box">
+        <img src="https://i.ytimg.com/vi/uT5X9aDYcPw/maxresdefault.jpg" alt="#">
+        <h3>Favorite Movie</h3>
+        
+        <p>
+          A Webpage where i talk about my favorite movie
+          <a href="favoritemovie.html" target="_blank">Favorite Movie</a>
+        </p>
+      
+      </div>
+      
+      <!-- End of an assignment-->
+      
+      
+      <!--start of an assignment-->
+      <div class="box">
+        <img src="https://images.everydayhealth.com/images/diet-nutrition/34da4c4e-82c3-47d7-953d-121945eada1e00-giveitup-unhealthyfood.jpg?sfvrsn=a31d8d32_0" alt="#">
+        <h3>Favorite Food</h3>
+        
+        <p>
+          A Website where i talk about some of my favorite food.
+          <a href="HTMLFavoriteFood.html" target="_blank">Favorite Food</a>
+          
+        </p>
+      
+      </div>
+      
+      <!-- End of an assignment-->
+      
+      <!--start of an assignment-->
+      <div class="box">
+        <img src="https://uctangerine.com/wp-content/uploads/2020/09/streaming.png" alt="#">
+        <h3>Streaming Assignment</h3>
+        
+        <p>
+          A Website where i reccoment different streaming sites.
+          <a href="htmlstreaming.html" target="_blank">Streaming Assignment</a>
+          
+        </p>
+      
+      </div>
+      
+      <!-- End of an assignment-->
+      
+      
+    </div>
+    <footer>
+      footer
+    </footer>
+  </body>
 </html>
