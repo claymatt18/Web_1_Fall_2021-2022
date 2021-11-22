@@ -1,0 +1,360 @@
+<!doctype html>
+
+<html>
+
+  <head>
+
+    <!-- Nonvisible -->
+    <!--CSS Goes here -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+        
+      }
+     
+      }
+      header {
+        color:white;
+        background-color:black;
+        text-align:center;
+      }
+      nav {
+        color:black;
+        background:red;
+        padding: 2vh;
+      }
+      footer{
+        background:red;
+        color:white;
+        padding:2vh;
+        height:10vh;
+      }
+      .container {
+        min-height:70vh;
+        color:black;
+        background: darkgray;
+        padding: 2vh;
+        width:80%;
+        margin:auto;
+      }
+      
+      .flex-container {
+        display:flex;
+        flex-direction:column;
+        
+      }
+      .row {
+        display:flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        background: white;
+        margin: 1vh auto;
+        width: 100%;
+      }
+      .row-item {
+        flex-basis: 100%;
+        text-align:center;
+        min-height: 30vh;
+        background:white;
+        margin: 1vh;
+        border: 1px black solid;
+      }
+      .row-item h3 {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        background:darkred;
+        color:white;
+      }
+      .row-item p {
+        font-size:1.15rem;
+        color:black;
+        padding: 1rem;
+      }
+      .row-movie {
+        height: 25vh;
+        background:black;
+      }
+      .flex-container h2 {
+        font-size:2rem;
+        padding:1rem;
+        background:red;
+        border-radius:2rem;
+      }
+      .row-movie iframe {
+        display:block;
+        width:100%;
+        height:100%;
+      }
+      
+    </style>
+    <!--Title tag for browser tab-->
+    <title>Flexbox Favorite Music</title>
+  </head>
+  <body>
+   <header>
+     <h1>Flexbox Favorite Music</h1>
+     <p>
+       Matthew Claybaugh
+       11/16/2021<br>
+       Web 1, 4th Hour
+       
+    </p>
+     
+   </header>
+   <nav>
+     nav section
+   </nav>
+    <div class ="container">
+      <!--main page content-->
+      
+      <div class="flex-container">
+        
+        <h2>Rihanna--Pop</h2>
+       
+        <!--- START OF ROW 1
+        ======================
+        ======================
+        -->
+        
+        
+         <div class="row">
+           
+           
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/E1mU6h4Xdxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Disturbia</h3>
+            <p>
+              This song is about how shes scared of the dark. I think.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/GSup7sP2IwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Desperado</h3>
+            <p>
+              This is a fun pop song about anything to be honest.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/lWA2pjMjpBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Diamonds</h3>
+            <p>
+              This is a song about wanting to be appreciated in a relationship.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          
+          
+    
+        </div> <!-- end of row-->
+        
+        
+        <h2>Adele--RnB</h2>
+       
+        <!--- START OF ROW 2
+        ======================
+        ======================
+        -->
+        
+        
+         <div class="row">
+           
+           
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/H9NJenpBV2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Easy On Me</h3>
+            <p>
+              This is a song about Adeles early life and childhood.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/rYEDA3JcQqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Rolling In The Deep</h3>
+            <p>
+              This is a song about recovering from bad experiences in life.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/hLQl3WQQoQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Someone Like You</h3>
+            <p>
+              This is a breakup song about finding another person after a relationship
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          
+          
+    
+        </div> <!-- end of row-->
+        
+        
+        <h2>The Weeknd--Pop</h2>
+       
+        <!--- START OF ROW 3
+        ======================
+        ======================
+        -->
+        
+        
+         <div class="row">
+           
+           
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe src="https://www.youtube.com/embed/mTLQhPFx2nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Die For You</h3>
+            <p>
+              This song is about a relationship that the Weeknd feels strongly about.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/rhTl_OyehF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Take My Breath</h3>
+            <p>
+              This is a song about meeting someone new.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/iKm5-XtXcII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Save Your Breath</h3>
+            <p>
+              This song is about a failed relationship that the other person is trying to save.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          
+          
+    
+        </div> <!-- end of row-->
+        
+        <h2>Mac Miller--Rap</h2>
+       
+        <!--- START OF ROW 4
+        ======================
+        ======================
+        -->
+        
+        
+         <div class="row">
+           
+           
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/SsKT0s5J8ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Self Care</h3>
+            <p>
+              This is a song about taking care of yourself before others.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/Eg7vEV5woSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Thats On Me</h3>
+            <p>
+              This song is about taking responsibility for mistakes youve made.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          <div class="row-item">
+            <div class="row-movie">
+              <!-- iframe from youtube will go here -->
+              <iframe  src="https://www.youtube.com/embed/fYEXdCCpfVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+            <h3>Hand Me Downs</h3>
+            <p>
+              This is a song about appreciating what you have before its gone.
+              
+            </p>
+            
+          </div><!--end of row-item-->
+          
+          
+          
+    
+        </div> <!-- end of row-->
+        
+        
+        
+      
+        
+        
+      </div><!--flex container closing tag-->
+
+    </div> <!--Container closing tag-->
+    <footer>
+      footer
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+<!doctype html>
+
+<!--
+More CSS Flexbox
+Using Flexbox as a Link
+Streaming Services v3
+-->
+
+<html>
+    <head>
+        <style>
+            body {
+              background:black;
+              color:white;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header {
+                text-align:center;
+                background:darkgrey;
+                color:white;
+            }
+            nav {
+                background:darkgrey;
+                color:white;
+                padding:2vh;
+            }
+            footer {
+                background:darkgrey;
+                color:white;
+                padding:2vh;
+                height:10vh;
+            }
+            .container {
+                min-height:70vh;
+                background:#4d4d4d;
+                color:black;
+                padding:2vh;
+                width:80%;
+                margin:auto;
+                display: flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                justify-content:center;
+            }
+            .box {
+              flex-basis:40%;
+              text-align: center;
+              border-radius:12px;
+              overflow:hidden;
+              background: lightgreen;
+              margin: 1rem;
+              
+            }
+            .box-image {
+              height:30vh;
+              background:lightgrey;
+              overflow:hidden;
+            }
+            .box-image img {
+              display:block;
+              width:100%;
+            }
+            .box h3 {
+              background:#9999ff;
+              padding:.75rem;
+              font-size:1.25rem;
+            }
+            .box p {
+              padding:1rem;
+              font-size 1.15rem;
+              background:white;
+            }
+            .box a {
+              color:black;
+              text-decoration:none;
+            }
+            .box:hover {
+              box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            }
+            
+            
+        </style>
+        <title>Streming V3</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Streaming V3</h1>
+            <p>
+                Matt Claybaugh<br>
+                Web 1, 4<br>
+                11/15
+            </p>
+            <hr>
+        </header>
+        <nav>
+            Placeholder
+        </nav>
+        <div class="container">
+            <!-- Write your assignment code here -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+              
+               <a href="https://www.netflix.com/" target="_blank">
+                 
+                <div class="box-image">
+                  
+                    <img src="https://i.pcmag.com/imagery/reviews/05cItXL96l4LE9n02WfDR0h-5..v1582751026.png" alt="#">
+                    
+                </div>
+                <h3>Netflix</h3>
+                <p>
+                    Easily the most popular and most rated streaming service on the web. <br> Offers countless different movies and shows. <br> Offers viewing options for kids aswell.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hulu.com/welcome?orig_referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank">
+                <div class="box-image">
+                    <img src="https://deadline.com/wp-content/uploads/2021/05/Hulu-Logo.jpg" alt="#">
+                </div>
+                <h3>Hulu</h3>
+                <p>
+                    Another popular and well rated streaming service. <br>This service offers plenty of great movies but is more suited for series and shows.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.hbomax.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://variety.com/wp-content/uploads/2020/04/hbo-max.png" alt="#">
+                </div>
+                <h3>HBO Max</h3>
+                <p>
+                    One of the newer services to be released in the past couple of years. <br> HBO max is great for wathing the newest movies that come out.<br><br>
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.disneyplus.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://cdn.vox-cdn.com/thumbor/nUQOhWe0sYt7OrWvf0vj8kj0YDw=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/13412121/disneyplus.0.jpg" alt="#">
+                </div>
+                <h3>Disney Plus</h3>
+                <p>
+                    Disney's attempt at making a designated streaming service. <br> This successful attempt houses most of if not all<br> of Disneys catalog.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.funimation.com/" target="_blank">
+                <div class="box-image">
+                    <img src="https://sm.pcmag.com/pcmag_uk/review/f/funimation/funimation_zagy.jpg" alt="#">
+                </div>
+                <h3>Funimation</h3>
+                <p>
+                    A bit of a different type of streaming service<br> that focuses mostly on Anime and japanese style animated shows. <br> It offers many different shows that the average <br> anime fan would love to watch.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            <!-- Start of a box -->
+            <div class="box">
+               <a href="https://www.amazon.com/Prime-Video/b?node=2676882011" target="_blank">
+                <div class="box-image">
+                    <img src="https://sm.pcmag.com/pcmag_au/review/a/amazon-pri/amazon-prime-video_d9sh.jpg" alt="#">
+                </div>
+                <h3>Amazon Prime Video</h3>
+                <p>
+                    Amazon is a huge and insanely famous digital market,<br> and their stremaing service definetely backs that up. <br> It comes free with a prime subscription and offers plenty of classic and new movies and shows to watch.
+                </p>
+               </a>
+            </div>
+            <!-- End of a box -->
+            
+            
+            
+            
+        </div><!-- Closing tag for container -->
+        <footer>
+            Placeholder
+        </footer>
+    </body>
+</html>
+flexbox2-starter.html
+Displaying flexbox2-starter.html.
